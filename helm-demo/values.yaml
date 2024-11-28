@@ -1,0 +1,8 @@
+image:
+  repository: "helm-kubernetes-demo"
+  tag: "1.0"
+  pullPolicy: "IfNotPresent"
+
+service:
+  type: NodePort
+  port: 8080
